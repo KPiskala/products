@@ -1,0 +1,25 @@
+version: '3.8'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    env_file:
+      - .env
+    volumes:
+      - ".:/app"
+    environment:
+      - PYTHONPATH=/app
+    command: ["python", "/app/app/main.py"]
+  checks:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    env_file:
+      - .env
+    volumes:
+      - ".:/app"
+    environment:
+      - PYTHONPATH=/app
+    command: ["echo", "Run checks with: docker-compose run --rm checks make all"]

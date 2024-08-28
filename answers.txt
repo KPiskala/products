@@ -1,0 +1,13 @@
+1. Number of products: 204.
+2. In category 'Pet Supplies' there are 27 products.
+	In category 'Electronics' there are 19 products.
+	In category 'Toys & Games' there are 21 products.
+	In category 'Outdoor Equipment' there are 17 products.
+	In category 'Office Supplies' there are 15 products.
+	In category 'Sports Gear' there are 17 products.
+	In category 'Fashion' there are 20 products.
+	In category 'Automotive' there are 21 products.
+	In category 'Home Appliances' there are 22 products.
+	In category 'Health & Wellness' there are 25 products.
+3. Most expensive fashion product is Pulsar Gadget (id: 187).
+4. The average price in 'Toys & Games' category is 38463.45 PLN.
